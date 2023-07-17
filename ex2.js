@@ -1,4 +1,4 @@
-var str = "hi";
+var say = "hi";
 var num = 10;
 var isLoggedIn = false;
 var arr = [1, 2, 3];

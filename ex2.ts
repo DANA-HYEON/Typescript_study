@@ -1,4 +1,4 @@
-let str: string = "hi";
+let say: string = "hi";
 
 let num: number = 10;
 
