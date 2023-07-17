@@ -29,3 +29,4 @@ type Member2 = {
     [key:string] : string,
 }
 let dana:Member2 = {name : "kim"};
+

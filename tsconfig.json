@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
-        "target": "ES5",
-        "module": "CommonJS"
+        "target": "ES5", //타입스크립트파일을 어떤 버전의 자바스크립트로 바꿀지 정하는 부분
+        "module": "CommonJS", //자바스크립트 파일간 import문법을 구현할 때 어떤 문법을 쓸지 정하는 곳
+                  //commonjs는 require문법
+                  //es2015,exnext는 import문법
+        "noImplicitAny": true, //any라는 타입이 의도치않게 발생할 경우 에러를 띄어줌
+        "strictNullChecks": true, //null, undefined타입에 이상한 조작하면 에러를 띄어줌
     }
 }
