@@ -62,3 +62,6 @@ var project = {
     days: 30,
     started: true,
 };
+var 네모2 = {
+    width: 100
+};

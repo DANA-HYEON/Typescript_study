@@ -6,5 +6,9 @@
                   //es2015,exnext는 import문법
         "noImplicitAny": true, //any라는 타입이 의도치않게 발생할 경우 에러를 띄어줌
         "strictNullChecks": true, //null, undefined타입에 이상한 조작하면 에러를 띄어줌
+        "lib": [
+            "ES2021",
+            "dom"
+          ]
     }
 }

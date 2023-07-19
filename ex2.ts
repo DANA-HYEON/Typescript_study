@@ -62,3 +62,12 @@ let project : {member:string[], days:number, started:boolean} = {
     days : 30,
     started : true,
   }
+
+  type Square = {
+    color? : string,
+    width : number,
+  }
+  
+  let 네모2 :Square = { 
+    width : 100 
+  }
