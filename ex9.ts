@@ -28,7 +28,7 @@ console.log(car1.tax())
 class Word{
     num:number[];
     str:string[];
-    constructor(...param : (number | string)[]){
+    constructor(...param : (number | string)[]){ //rest paramter
         let 숫자들 :number[] = [];
         let 문자들 :string[] = [];
     
